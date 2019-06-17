@@ -24,17 +24,10 @@ class Counter extends Component {
           Clicked: <span>{this.props.count} </span> times
         </h2>
         <div className="buttons">
+          <button onClick={this.props.increment}>+</button>
           <button
-            onClick={() => {
-              /* Fill me in */
-            }}
-          >
-            +
-          </button>
-          <button
-            onClick={() => {
-              /* Fill me in */
-            }}
+            onClick={this.props.decrement}
+            disabled={this.props.count <= 0 ? true : false}
           >
             -
           </button>
