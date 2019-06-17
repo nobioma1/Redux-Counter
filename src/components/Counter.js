@@ -20,6 +20,7 @@ class Counter extends Component {
     // should decrement or increment accordingly
     return (
       <div className="counter">
+        <header>Counter</header>
         <h2>
           Clicked: <span>{this.props.count} </span> times
         </h2>

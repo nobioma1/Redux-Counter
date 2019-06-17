@@ -8,6 +8,18 @@
   background-color: gainsboro;
 }
 
+.counter header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  padding: 15px;
+  background-color: deepskyblue;
+  font-size: 25px;
+  font-weight: 500;
+  color: aliceblue;
+}
+
 .counter h2 {
   text-align: center;
 }
@@ -26,4 +38,12 @@
 
 .buttons button:focus{
   outline: none;
+}
+
+.buttons button:hover{
+  border-color: dodgerblue;
+}
+
+.buttons button:disabled{
+  opacity: 0.5;
 }
